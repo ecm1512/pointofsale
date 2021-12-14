@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/posFragment">
+
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.nttdata.saleapp.presentation.home.inventory.InventoryFragment"
+        android:label="inventory_fragment"
+        tools:layout="@layout/inventory_fragment" >
+        <action
+            android:id="@+id/action_inventoryFragment_to_newArticleFragment"
+            app:destination="@id/newArticleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/posFragment"
+        android:name="com.nttdata.saleapp.presentation.home.pos.PosFragment"
+        android:label="pos_fragment"
+        tools:layout="@layout/pos_fragment" >
+        <action
+            android:id="@+id/action_posFragment_to_newSaleFragment"
+            app:destination="@id/newSaleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.nttdata.saleapp.presentation.home.account.AccountFragment"
+        android:label="account_fragment"
+        tools:layout="@layout/account_fragment" />
+    <fragment
+        android:id="@+id/newSaleFragment"
+        android:name="com.nttdata.saleapp.presentation.home.pos.newsale.NewSaleFragment"
+        android:label="new_sale_fragment"
+        tools:layout="@layout/new_sale_fragment" >
+        <action
+            android:id="@+id/action_newSaleFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newArticleFragment"
+        android:name="com.nttdata.saleapp.presentation.home.inventory.newarticle.NewArticleFragment"
+        android:label="new_article_fragment"
+        tools:layout="@layout/new_article_fragment" />
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.nttdata.saleapp.presentation.home.pos.newsale.addproduct.AddProductFragment"
+        android:label="add_product_fragment"
+        tools:layout="@layout/add_product_fragment" />
+</navigation>

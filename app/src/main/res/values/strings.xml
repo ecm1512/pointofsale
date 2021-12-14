@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SaleApp</string>
+    <string name="login_title">Penca Natural</string>
+    <string name="login_username_hint">Usuario</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesion</string>
+    <string name="login_button_cancelar">Cancelar</string>
+    <string name="nav_sale_name">Venta</string>
+    <string name="nav_inventory_name">Inventario</string>
+    <string name="nav_account_name">Cuenta</string>
+    <string name="pos_customer_item">Cliente</string>
+    <string name="pos_date_item">Fecha</string>
+    <string name="pos_total_item">Total</string>
+    <string name="pos_add_article_title_bottom_sheet">¿Cuando desea del producto?</string>
+    <string name="pos_add_article_cant_bottom_sheet">Cantidad</string>
+    <string name="pos_add_article_button_bottom_sheet">Agregar</string>
+    <string name="pos_button_add_products">Seleccionar productos</string>
+    <string name="pos_label_total_value">Valor total</string>
+    <string name="pos_label_pen_simbol">S/.</string>
+    <string name="pos_label_total_price">0</string>
+    <string name="pos_detail_label_unit_price">Precio unitario</string>
+    <string name="pos_detail_label_total_price">Precio Total</string>
+    <string name="pos_button_new_sale">Crear Venta</string>
+    <string name="inventory_name_item">Nombre</string>
+    <string name="inventory_stock_item">Stock</string>
+    <string name="inventory_price_item">Precio</string>
+    <string name="inventory_label_new_Article">Agregar Producto</string>
+    <string name="inventory_button_new_Article">Crear Producto</string>
+    <string name="account_button">Cerrar sesion</string>
+</resources>
